@@ -1,1 +1,3 @@
 # Myv2rayConfigs
+ this repository searches for various v2ray configs in mostly iranian channels and updates every 1 hour and saves output to a txt file . 
+ + i was using this for myself as a personal project but i thought maybe making it public would help some people have unrestricted internet
