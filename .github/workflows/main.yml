@@ -48,7 +48,7 @@ jobs:
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
         # Adjust 'git add' to include all files your script modifies/creates
-        git add configs.txt v2ray.session config.txt # Example: based on previous output
+        git add configs.txt
         git commit -m "feat: Automated update of generated files" || echo "No changes to commit"
         git push
       env:
