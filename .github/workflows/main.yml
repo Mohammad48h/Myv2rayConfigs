@@ -6,17 +6,13 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    # Run every 1 hour.
-    # '0' means at the 0th minute of the hour.
-    # '*' for hour, day of month, month, and day of week means "every"
-    # All times are in UTC.
-    - cron: '0 * * * *' # <--- Changed this line
+    - cron: '0 * * * *'
 
 jobs:
   run_telegram_bot:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Grant write access to repository contents
+      contents: write
 
     steps:
     - name: Checkout repository
@@ -31,7 +27,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests pyrogram
-        # pip install requests pyrogram[tgcrypto] # Optional, for better performance
 
     - name: Decrypt Telegram Session File
       env:
@@ -47,9 +42,14 @@ jobs:
       run: |
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
-        # Adjust 'git add' to include all files your script modifies/creates
         git add configs.txt
-        git commit -m "feat: Automated update of generated files" || echo "No changes to commit"
-        git push
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "feat: Automated update of generated files"
+          git pull --rebase origin main
+          git push
+        else
+          echo "No changes to commit"
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
