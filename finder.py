@@ -12,13 +12,9 @@ from pyrogram import Client as PyrogramClient, enums
 # --- Configuration Variables ---
 TELEGRAM_API_ID = 1234567 # Replace with your Telegram API ID
 TELEGRAM_API_HASH = "your_api_hash_here" # Replace with your Telegram API Hash
-TELEGRAM_SESSION_NAME = "v2ray" # Name for your Pyrogram session file
+TELEGRAM_SESSION_NAME = "telegram" # Name for your Pyrogram session file
 OUTPUT_FILE = "configs.txt" # Local file to save configurations
 FORMAT_STRING = "Config | {number} / {total}" # Format for the config name
-GITHUB_TOKEN = "" # Your GitHub Personal Access Token
-GITHUB_OWNER = "Mohammad48h" # Your GitHub username/organization
-GITHUB_REPO = "private" # The repository name
-GITHUB_PATH = "config.txt" # The target file path within the repository
 
 
 # --- Protocol Patterns for Extraction ---
