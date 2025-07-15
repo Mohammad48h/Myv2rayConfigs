@@ -1,0 +1,55 @@
+name: Run Telegram Finder (Scheduled)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    # Run every 1 hour.
+    # '0' means at the 0th minute of the hour.
+    # '*' for hour, day of month, month, and day of week means "every"
+    # All times are in UTC.
+    - cron: '0 * * * *' # <--- Changed this line
+
+jobs:
+  run_telegram_bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grant write access to repository contents
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pyrogram
+        # pip install requests pyrogram[tgcrypto] # Optional, for better performance
+
+    - name: Decrypt Telegram Session File
+      env:
+        PASSPHRASE: ${{ secrets.DECRYPTION }}
+      run: |
+        echo "$PASSPHRASE" | gpg --quiet --batch --yes --decrypt --passphrase-fd 0 --output telegram.session telegram.session.aes256 || { echo "Telegram decryption failed!"; exit 1; }
+      shell: bash
+
+    - name: Run finder.py
+      run: python finder.py
+
+    - name: Commit and Push generated files
+      run: |
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        # Adjust 'git add' to include all files your script modifies/creates
+        git add configs.txt v2ray.session config.txt # Example: based on previous output
+        git commit -m "feat: Automated update of generated files" || echo "No changes to commit"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
