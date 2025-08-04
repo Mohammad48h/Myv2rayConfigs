@@ -1,5 +1,4 @@
-vless://b7aba45f-5cdd-4543-a619-8124a5fe7f87@91.99.216.9:8443?encryption=none&security=reality&sni=refersion.com&fp=firefox&pbk=r3FLw76bxhgit74mzJTglRM-ujPZ9f-HemByQ-uZqms&sid=27e6b66aa77662fb&type=tcp&headerType=none&host=mci.ir#Config | 1 / 5
-vless://7969f5aa-ca87-47c6-eeb4-45d7e4d5873c@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#Config | 2 / 5
-vless://0c2a1be7-cdde-4854-a45c-ddec52584fa1@65.109.208.107:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#Config | 3 / 5
-vless://f7bd1cd5-0e2c-441e-90fa-b7254dae2655@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#Config | 4 / 5
-vless://f7bd1cd5-0e2c-441e-90fa-b7254dae2655@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#Config | 5 / 5
+vless://7969f5aa-ca87-47c6-eeb4-45d7e4d5873c@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#Config | 1 / 4
+vless://0c2a1be7-cdde-4854-a45c-ddec52584fa1@65.109.208.107:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#Config | 2 / 4
+vless://f7bd1cd5-0e2c-441e-90fa-b7254dae2655@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#Config | 3 / 4
+vless://f7bd1cd5-0e2c-441e-90fa-b7254dae2655@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#Config | 4 / 4
