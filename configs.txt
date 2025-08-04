@@ -1,8 +1,4 @@
-vless://7969f5aa-ca87-47c6-eeb4-45d7e4d5873c@tgju.org:80?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=fin.channel.digicyber.click&type=ws#Config | 1 / 8
-vless://0c2a1be7-cdde-4854-a45c-ddec52584fa1@65.109.208.107:2083?mode=gun&security=reality&encryption=none&pbk=mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8&fp=firefox&spx=%2F&type=grpc&serviceName=melov2ray&sni=khamenei.ir&sid=54602915a7#Config | 2 / 8
-vless://f7bd1cd5-0e2c-441e-90fa-b7254dae2655@chat.openai.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#Config | 3 / 8
-vless://f7bd1cd5-0e2c-441e-90fa-b7254dae2655@cafearz.com:8080?path=%2Folem%2Fws%3Fed%3D1024&security=none&encryption=none&host=shad.ir.fin.test.digicyber.click.&type=ws#Config | 4 / 8
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.21.67.12:443?path=%2Fproxyip&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#Config | 5 / 8
-vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.15.69:2096?path=%2Fproxyip%3Dzani.yaemiko.ggff.net&security=tls&alpn=http%2F1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=randomized&type=ws&sni=carlotta.shoorekeeper.cloudns.org#Config | 6 / 8
-vless://5139af95-a453-46c6-831a-a532b6b51305@DeEp-RAdIo.SEOtOoLSForYou.CO.UK:80?path=%2F&security=none&encryption=none&type=ws#Config | 7 / 8
-vless://4ad29f1b-2cea-4ddc-b856-fab1ff141ac6@bRillIanT-KnOWLEDge.SeOTOoLsfoRYoU.cO.UK:80?path=%2F&security=none&encryption=none&type=ws#Config | 8 / 8
+vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.21.67.12:443?path=%2Fproxyip&security=tls&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=chrome&type=ws&sni=carlotta.shoorekeeper.cloudns.org#Config | 1 / 4
+vless://30f2d443-af46-4dd6-83c9-b5e17299ebd2@104.26.15.69:2096?path=%2Fproxyip%3Dzani.yaemiko.ggff.net&security=tls&alpn=http%2F1.1&encryption=none&host=carlotta.shoorekeeper.cloudns.org&fp=randomized&type=ws&sni=carlotta.shoorekeeper.cloudns.org#Config | 2 / 4
+vless://5139af95-a453-46c6-831a-a532b6b51305@DeEp-RAdIo.SEOtOoLSForYou.CO.UK:80?path=%2F&security=none&encryption=none&type=ws#Config | 3 / 4
+vless://4ad29f1b-2cea-4ddc-b856-fab1ff141ac6@bRillIanT-KnOWLEDge.SeOTOoLsfoRYoU.cO.UK:80?path=%2F&security=none&encryption=none&type=ws#Config | 4 / 4
